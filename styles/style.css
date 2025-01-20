@@ -1,0 +1,158 @@
+:root { 
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --font-primaria: "Inter", serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.apresentacao__banner {
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  
+}
+
+.button__banner{
+    text-decoration: none;
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    font-family: var(--font-primaria);
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+}
+.button__banner2{
+    text-decoration: none;
+    border: solid 1px var(--branco-principal);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    font-family: var(--font-primaria);
+    font-size: 0.9rem;
+    margin-bottom: 1%;
+}
+
+.button__hashtag{
+    color: var(--cinza-secundario);
+    font-family: var(--font-primaria);
+    font-size: 0.7rem;
+}
+
+.banner__titulo{
+    font-family: var(--font-primaria);
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.info__banner{
+    margin: 0% 10%;
+}
+
+.imagem__banner{
+    margin: 0 15%;
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.banner__2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+    padding: 3% 0;
+}
+
+.banner__2__imagem{
+    margin: 0 30%;
+    width: 60%;
+}
+
+.banner__2__info{
+    margin: 0 15% 0 15%;
+}
+
+.banner__2__titulo{
+    font-family: var(--font-primaria);
+    font-size: 3rem;
+    margin-bottom: 0.1em;
+}
+
+.banner__2__texto{
+    font: var(--font-primaria);
+    font-size: 1rem;
+    color: var(--cinza-secundario);
+}
+
+.banner__3__imagem{
+    margin-left: 10%;
+    width: 70%;
+}
+.banner3__button{
+    width: 30%;
+    text-align: center;
+}
+
+.container__titulo{
+    font: var(--font-primaria);
+    font-size: 3em;
+    text-align: center;
+}
+
+.dispositivos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 5%;
+    text-align: center;
+    align-items: center;
+}
+
+.final__banner{
+    padding: 3% 0;
+}
+
+.ending{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.link__ending{
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-right: 2%;
+
+}
+
+.ending__texto{
+    color: var(--cinza-secundario);
+    padding-top: 2%;
+}
+
+.links{
+    padding: 1% 0;
+}
+.logo{
+    padding: 3% 0;
+}
+
+.button__bannerr:hover{
+    color: #00030C;
+    background-color: antiquewhite;
+}
+
+.link__ending:hover{
+    color: #167BF7;
+}
